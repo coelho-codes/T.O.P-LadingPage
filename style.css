@@ -1,0 +1,71 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+/* Header Style */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #1f2937;
+}
+
+header p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Main Style */
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 50px;
+    background-color: #1f2937;
+}
+
+.left {
+    width: 360px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0px;
+}
+
+.left button {
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+}
