@@ -11,6 +11,10 @@ img {
     height: auto;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Header Style */
 
 header {
@@ -34,6 +38,10 @@ nav {
 a {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.75);
 }
 
 /* Main 1 Style */
@@ -69,6 +77,10 @@ h1 {
     color: #F9FAF8;
     border: none;
     border-radius: 5px;
+}
+
+.left button:hover {
+    cursor: pointer;
 }
 
 /* Main 2 Style */
@@ -152,6 +164,10 @@ h3 {
     padding: 5px 20px;
     color: #F9FAF8;
     border-radius: 5px;
+}
+
+.call-to-action button:hover {
+    cursor: pointer;
 }
 
 /* Footer Style */
